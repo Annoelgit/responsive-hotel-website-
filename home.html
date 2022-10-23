@@ -3,7 +3,7 @@
     <head>
         <meta charset ="utf-8">
         <title>Hotel GP</title>
-        <meta name="viewpoint" content="width=device-width ,initial -scale=1">
+        <meta name="viewpoint" content="width=device-width ,initial -scale=1"> <!-- this is the head part with has a kit for font-->
         <link rel="stylesheet" href="main.css">
         <script src="https://kit.fontawesome.com/4566df9171.js" 
         crossorigin="anonymous"></script>
@@ -15,8 +15,103 @@
                 <div class="Site-name">
                     <span>Hello! test website</span>
                 </div>
+                <div class="site-nav">
+                    <span id="nav-btn">Menu <i class="fas fa-bars"></i></span><!--this part is for the menu bar-->
+                </div>
             </div>
+            <div class="Head-bottom flex">
+                <h2>Nice and comfo place to stay</h2>
+                <p> <h5>About the company</h5> 
+                    What exactly Tata Elxsi do?
+                    It provides Design-led digital engineering, technology development, testing, and systems integration services.
+                     It's deep domain expertise combined with over 30 years of technology and product development experience helps global 
+                     brands differentiate and win in the market.</p>
+                     <button type="button" class="head-btn">Get started</button>
+           
+                    </div>
         </header>
+        <!-- end of the header part-->
+
+        <!--side nav bar-->
+        <div class ="sidenav" id="sidenav">
+            <span class="cancel-btn" id="cancel-btn">
+                <i class="fas fa-times"></i><!-- fir the cancel icon-->
+            </span>
+            <ul class="navbar">
+                <li> <a href="#header">Home</a></li>
+                <li><a href="#services">services</a></li>
+                <li><a href="#rooms">rooms</a> </li>
+                <li><a href="#customers">Customers</a></li>
+            </ul>
+            <button class="btn sign-up">sign up</button>
+            <button class="btn log-in">log in</button>
+        </div>
+        <!-- end of side nav bar-->
+        <!--Full screen modal-->
+        <div id="modal" ></div>
+        <!--end of full screen modal-->
+    <!--Boday content-->
+    <section class="services sec-width" id="services">
+        <div class="title">
+            <h2>services</h2>
+        </div>
+        <div class="services-container">
+            <!--single service-->
+            <article class="service">
+                <div class="service-icon">
+                    <span>
+                        <i class="fas fa-utensils"></i>
+                    </span>
+                </div>
+                <div class="sevice-content">
+                    <h2>Food served</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                     Enim doloremque quos dolore sit architecto consectetur doloribus nesciunt ex eligendi ea, delectus distinctio molestias saepe? 
+                     Ipsum earum quasi sunt quibusdam velit?
+                      Incidunt quae in reiciendis inventore vel ea enim perferendis, architecto expedita tenetur quo quod vitae voluptas error! Impedit,
+                       atque cumque.</p>
+                       <button type="button"class=btn>Know more</button>                
+                    </div>
+            </article>
+            <!--end of single service-->
+            <!--single service-->
+            <article class="service">
+                <div class="service-icon">
+                    <span>
+                        <i class="fas fa-swimming-pool"></i>
+                    </span>
+                </div>
+                <div class="sevice-content">
+                    <h2>Swiming pool</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                     Enim doloremque quos dolore sit architecto consectetur doloribus nesciunt ex eligendi ea, delectus distinctio molestias saepe? 
+                     Ipsum earum quasi sunt quibusdam velit?
+                      Incidunt quae in reiciendis inventore vel ea enim perferendis, architecto expedita tenetur quo quod vitae voluptas error! Impedit,
+                       atque cumque.</p>
+                       <button type="button"class=btn>Know more</button>                
+                    </div>
+            </article>
+            <!--end of single service-->
+            <!--single service-->
+            <article class="service">
+                <div class="service-icon">
+                    <span>
+                        <i class="fas fa-broom"></i>
+                    </span>
+                </div>
+                <div class="sevice-content">
+                    <h2>Housekeeping</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                     Enim doloremque quos dolore sit architecto consectetur doloribus nesciunt ex eligendi ea, delectus distinctio molestias saepe? 
+                     Ipsum earum quasi sunt quibusdam velit?
+                      Incidunt quae in reiciendis inventore vel ea enim perferendis, architecto expedita tenetur quo quod vitae voluptas error! Impedit,
+                       atque cumque.</p>
+                       <button type="button"class=btn>Know more</button>                
+                    </div>
+            </article>
+            <!--end of single service-->
+        </div>
+        </section>
         <script src="Script.js"></script>
     </body>
 
